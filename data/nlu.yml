@@ -1,0 +1,232 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - whats up
+    - sup
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - c ya
+    - ciao
+    - talk to you later
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: read_watch_listen
+  examples: |
+    - I would like to read a [book] (category)
+    - I would like to watch a [movie] (category)
+    - I would like to listen a [song] (category)
+    - I want to read a [book](category)
+    - I want to watch a [movie](category)
+    - I want to listen a [song](category)
+    - Please suggest me a good [movie](category)
+    - Please suggest me a good [song](category)
+    - Please suggest me a good [book](category)
+    - Can you recommend me a [movie](category)
+    - Can you recommend me a [song](category)
+    - Can you recommend me a [book](category)
+    - give me some recommendations for [movie](category)
+    - give me some recommendations for [song](category)
+    - give me some recommendations for [book](category)
+    - Can you suggest a [book](category)
+    - Can you suggest a [movie](category)
+    - Can you suggest a [song](category)
+    
+- intent: movie_match_director
+  examples: |
+    - what movies were directed by [quentin tarantino](director)?
+    - what movies were directed by [steven spielberg](director)?
+    - what movies were directed by [christopher nolan](director)?
+    - what movies were directed by [charles roven](director)?
+    - what movies were directed by [martin scorsese](director)?
+    - what movies were directed by [scott rudin](director)?
+    - what are the movies by [stanley kubrick](director)?
+    - what are the movies by [peter jackson](director)?
+    - what are the movies by [joel silver](director)?
+    - what is [quentin tarantino](director) known for?
+    - what did [ridley scott](director) create?
+
+- intent: movie_match_actor
+  examples: |
+    - what movies had the participation of [tom cruise](actor)?
+    - what movies had the participation of [brad pitt](actor)?
+    - what movies had the participation of [tom hanks](actor)?
+    - what movies had the participation of [leonardo dicaprio](actor)?
+    - what movies had the participation of [morgan freeman](actor)?
+    - what movies had the participation of [johnny depp](actor)?
+    - what movies had the participation of [shah rukh khan](actor)?
+    - what movies had the participation of [salman khan](actor)?
+    - what movies had the participation of [kartik  aryan](actor)?
+    - what movies had the participation of [sushant singh rajput](actor)?
+    - what movies has [christian bale](actor) worked on?
+    - what movies has [robert de niro](actor) worked on?
+    - what movies has [matt damon](actor) worked on?
+
+- intent: movie_match_year
+  examples: | 
+  - what were the movies made in 2018?
+  - what were the movies made in 1980?
+  - what were the movies made in 1995?
+  - what were the movies made in 1990?
+  - what were the movies made in 2005?
+  - what movies have been released in 2018?
+  - what movies have been released in 1990?
+  - what movies have been released in 2000?
+
+
+- intent: movie_match_genre
+  example: |
+    - tell me [comedy](genre) movies
+    - tell me [action](genre) movies
+    - tell me [horror](genre) movies
+    - give me [comedy](genre) movies
+    - give me [action](genre) movies
+    - give me [horror](genre) movies
+
+- intent: book_match_genre
+  example: | 
+    - tell me [fiction](genre) books
+    - tell me [nonfiction](genre) books
+    - tell me [poetry](genre) books
+    - tell me [drama](genre) books
+    - give me [fiction](genre) books
+    - give me [nonfiction](genre) books
+    - give me [poetry](genre) books
+    - give me [drama](genre) books
+
+- intent: book_match_genre
+  example: | 
+    - tell me [fiction](genre) books
+    - tell me [nonfiction](genre) books
+    - tell me [poetry](genre) books
+    - tell me [drama](genre) books
+    - give me [fiction](genre) books
+    - give me [nonfiction](genre) books
+    - give me [poetry](genre) books
+    - give me [drama](genre) books
+
+- intent: music_match_genre
+  example: | 
+    - tell me [pop](genre) music
+    - tell me [hip hop](genre) music
+    - tell me [rock](genre) music
+    - tell me [soul](genre) music
+    - tell me [country](genre) music
+    - tell me [reggae](genre) music
+    - tell me [blues](genre) music
+    - tell me [jazz](genre) music
+    - tell me [disco](genre) music
+    - tell me [classical](genre) music
+    - give me [pop](genre) music
+    - give me [hip hop](genre) music
+    - give me [rock](genre) music
+    - give me [soul](genre) music
+    - give me [country](genre) music
+    - give me [reggae](genre) music
+    - give me [blues](genre) music
+    - give me [jazz](genre) music
+    - give me [disco](genre) music
+    - give me [classical](genre) music
+   
+
+- synonym: movie
+  example: |
+    - film
+    - films
+    - pictures
+    - picture
+
+- synonym: book
+  example: |
+    - novels
+
+- synonym: song
+  example: | 
+    - music
+
+
