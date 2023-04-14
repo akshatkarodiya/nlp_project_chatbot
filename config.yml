@@ -8,12 +8,16 @@ language: en
 
 pipeline:
 # initialize the spacy configurations 
+ 
  - name: SpacyNLP
    model: dataset/spacy.word2vec.model
  # used to create tokens on the basis of the whitespace e.g. => how are you ? =conversion> tokensList=>["how","are","you","?"]
  - name: SpacyTokenizer
  # used to vector representation of user message or features for entity extraction, intent classification, and response classification using the spaCy featurizer.
  - name: SpacyFeaturizer
+ - name: LanguageModelFeaturizer
+   model_name: bert
+   model_weights: "rasa/LaBSE"
  # Creates features for entity extraction and intent classification. During training the RegexFeaturizer creates a list of regular expressions defined in the training data format
  - name: RegexFeaturizer
 # used to map synonym of entity. 

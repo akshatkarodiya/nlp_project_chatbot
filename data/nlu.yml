@@ -148,7 +148,7 @@ nlu:
     - suggest me movies that were directed by [steven spielberg](director) and had [tom cruise](actor) as an actor
     - give me movies that were directed by [tony scott](director) produced between 1990 and 2002
 
-- intent: movie_match_several_criteria
+- intent: movie_match_rating
   examples: |
     - what were the [top 5](rating) rated movies in 2018?
     - what were the [top 2](rating) rated movies in 2019?
