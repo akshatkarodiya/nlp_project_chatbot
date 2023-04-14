@@ -1,0 +1,32 @@
+version: "2.0"
+nlu:
+  - lookup: genre
+    examples: |
+      - biography
+      - talk-show
+      - adult
+      - film-noir
+      - action
+      - crime
+      - musical
+      - sport
+      - music
+      - game-show
+      - reality-tv
+      - thriller
+      - news
+      - horror
+      - fantasy
+      - romance
+      - short
+      - war
+      - drama
+      - sci-fi
+      - comedy
+      - western
+      - animation
+      - adventure
+      - mystery
+      - history
+      - family
+      - documentary

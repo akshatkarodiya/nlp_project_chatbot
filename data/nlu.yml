@@ -96,137 +96,66 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: read_watch_listen
+- intent: location_mapper
   examples: |
-    - I would like to read a [book] (category)
-    - I would like to watch a [movie] (category)
-    - I would like to listen a [song] (category)
-    - I want to read a [book](category)
-    - I want to watch a [movie](category)
-    - I want to listen a [song](category)
-    - Please suggest me a good [movie](category)
-    - Please suggest me a good [song](category)
-    - Please suggest me a good [book](category)
-    - Can you recommend me a [movie](category)
-    - Can you recommend me a [song](category)
-    - Can you recommend me a [book](category)
-    - give me some recommendations for [movie](category)
-    - give me some recommendations for [song](category)
-    - give me some recommendations for [book](category)
-    - Can you suggest a [book](category)
-    - Can you suggest a [movie](category)
-    - Can you suggest a [song](category)
-    
+    - I live in New York City
+    - I live in Tamil Nadu
+    - I am from Madhya Pradesh 
+
 - intent: movie_match_director
-  examples: |
+  examples: | 
     - what movies were directed by [quentin tarantino](director)?
-    - what movies were directed by [steven spielberg](director)?
+    - what movies were directed by [rajkumar hirani](director)?
     - what movies were directed by [christopher nolan](director)?
     - what movies were directed by [charles roven](director)?
     - what movies were directed by [martin scorsese](director)?
-    - what movies were directed by [scott rudin](director)?
+    - what movies were directed by [karan johar](director)?
     - what are the movies by [stanley kubrick](director)?
     - what are the movies by [peter jackson](director)?
     - what are the movies by [joel silver](director)?
     - what is [quentin tarantino](director) known for?
-    - what did [ridley scott](director) create?
+    - what did [kabir khan](director) create?
 
 - intent: movie_match_actor
   examples: |
     - what movies had the participation of [tom cruise](actor)?
     - what movies had the participation of [brad pitt](actor)?
-    - what movies had the participation of [tom hanks](actor)?
+    - what movies had the participation of [anil kapoor](actor)?
     - what movies had the participation of [leonardo dicaprio](actor)?
-    - what movies had the participation of [morgan freeman](actor)?
-    - what movies had the participation of [johnny depp](actor)?
-    - what movies had the participation of [shah rukh khan](actor)?
     - what movies had the participation of [salman khan](actor)?
-    - what movies had the participation of [kartik  aryan](actor)?
-    - what movies had the participation of [sushant singh rajput](actor)?
+    - what movies had the participation of [johnny depp](actor)?
     - what movies has [christian bale](actor) worked on?
     - what movies has [robert de niro](actor) worked on?
-    - what movies has [matt damon](actor) worked on?
-
-- intent: movie_match_year
-  examples: | 
-  - what were the movies made in 2018?
-  - what were the movies made in 1980?
-  - what were the movies made in 1995?
-  - what were the movies made in 1990?
-  - what were the movies made in 2005?
-  - what movies have been released in 2018?
-  - what movies have been released in 1990?
-  - what movies have been released in 2000?
+    - what movies has [shah rukh khan](actor) worked on?
 
 
 - intent: movie_match_genre
-  example: |
+  examples: |
     - tell me [comedy](genre) movies
-    - tell me [action](genre) movies
+    - suggest me [action](genre) movies
     - tell me [horror](genre) movies
     - give me [comedy](genre) movies
-    - give me [action](genre) movies
+    - show me [action](genre) movies
     - give me [horror](genre) movies
 
-- intent: book_match_genre
-  example: | 
-    - tell me [fiction](genre) books
-    - tell me [nonfiction](genre) books
-    - tell me [poetry](genre) books
-    - tell me [drama](genre) books
-    - give me [fiction](genre) books
-    - give me [nonfiction](genre) books
-    - give me [poetry](genre) books
-    - give me [drama](genre) books
+- intent: movie_match_several_criteria
+  examples: |
+    - tell me [comedy](genre) movies that had the participation of [tom cruise](actor)
+    - tell me [drama](genre) movies that had the participation of [brad pitt](actor)
+    - show me [comedy](genre) movies that were produced between 2018 and 2019
+    - suggest me [horror](genre)  movies that were produced between 1990 and 2002
+    - tell me [action](genre) movies that were directed by [tony scott](director)
+    - suggest me movies that were directed by [steven spielberg](director) and had [tom cruise](actor) as an actor
+    - give me movies that were directed by [tony scott](director) produced between 1990 and 2002
 
-- intent: book_match_genre
-  example: | 
-    - tell me [fiction](genre) books
-    - tell me [nonfiction](genre) books
-    - tell me [poetry](genre) books
-    - tell me [drama](genre) books
-    - give me [fiction](genre) books
-    - give me [nonfiction](genre) books
-    - give me [poetry](genre) books
-    - give me [drama](genre) books
+- intent: movie_match_several_criteria
+  examples: |
+    - what were the [top 5](rating) rated movies in 2018?
+    - what were the [top 2](rating) rated movies in 2019?
+    - what were the [top 10](rating) rated movies in 1990?
 
-- intent: music_match_genre
-  example: | 
-    - tell me [pop](genre) music
-    - tell me [hip hop](genre) music
-    - tell me [rock](genre) music
-    - tell me [soul](genre) music
-    - tell me [country](genre) music
-    - tell me [reggae](genre) music
-    - tell me [blues](genre) music
-    - tell me [jazz](genre) music
-    - tell me [disco](genre) music
-    - tell me [classical](genre) music
-    - give me [pop](genre) music
-    - give me [hip hop](genre) music
-    - give me [rock](genre) music
-    - give me [soul](genre) music
-    - give me [country](genre) music
-    - give me [reggae](genre) music
-    - give me [blues](genre) music
-    - give me [jazz](genre) music
-    - give me [disco](genre) music
-    - give me [classical](genre) music
-   
-
-- synonym: movie
-  example: |
+- synonym: movies
+  examples: |
     - film
-    - films
-    - pictures
     - picture
-
-- synonym: book
-  example: |
-    - novels
-
-- synonym: song
-  example: | 
-    - music
-
-
+    - cinema

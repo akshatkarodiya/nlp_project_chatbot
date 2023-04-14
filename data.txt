@@ -1,0 +1,659 @@
+ - a. k. hangal
+      - aamir bashir
+      - aamir khan
+      - aanjjan srivastav
+      - aasif sheikh
+      - abhi bhattacharya
+      - abhijeet sawant
+      - abhinav shukla
+      - abhishek bachchan
+      - abhay deol
+      - abhay shukla
+      - achyut potdar
+      - adi irani
+      - adil hussain
+      - aditya kumar
+      - aditya lakhia
+      - aditya roy kapur
+      - aditya seal
+      - aditya shrivastava
+      - aftab shivdasani
+      - agha
+      - ahan shetty
+      - ajay devgan
+      - ajay nagrath
+      - ajit
+      - ajith kumar
+      - ajinkya deo
+      - akash khurana
+      - akbar khan
+      - akhilendra mishra
+      - akshay anand
+      - akshay kumar
+      - akshaye khanna
+      - ali asgar
+      - ali fazal
+      - alok nath
+      - aman verma
+      - amar upadhyay
+      - amit mistry
+      - amit sadh
+      - amit varma
+      - amitabh bachchan
+      - amjad khan
+      - amol palekar
+      - amrinder gill
+      - amrish puri
+      - amrit pal
+      - anand abhyankar
+      - anand tiwari
+      - anant jog
+      - anant mahadevan
+      - anant nag
+      - anang desai
+      - angad bedi
+      - anil kapoor
+      - anil dhawan
+      - aniruddh dave
+      - ankit mohan
+      - ankit gupta
+      - ankush hazra
+      - annu kapoor
+      - anoop kumar
+      - anup soni
+      - anup upadhyay
+      - anupam kher
+      - anwar hussain
+      - aparshakti khurana
+      - apurva agnihotri
+      - arbaaz khan
+      - arfi lamba
+      - arif zakaria
+      - arjun
+      - arjun kapoor
+      - arjun rampal
+      - armaan kohli
+      - arshad warsi
+      - arun bakshi
+      - arun bali
+      - arun govil
+      - arunoday singh
+      - arya babbar
+      - aryan vaid
+      - arvind trivedi
+      - aseem merchant
+      - ashish vidyarthi
+      - ashmit patel
+      - ashok banthia
+      - ashok kumar
+      - ashok saraf
+      - ashutosh gowariker
+      - ashutosh rana
+      - asif basra
+      - asit sen
+      - asrani
+      - atul agnihotri
+      - atul kulkarni
+      - avinash tiwary
+      - avinash wadhawan
+      - avtar gill
+      - ayub khan
+      - ayushmann khurrana
+      - baba sehgal
+      - baburaj
+      - bal dhuri
+      - balraj sahni
+      - barun sobti
+      - benjamin gilani
+      - bhagwan dada
+      - bharat bhushan
+      - bharat kapoor
+      - bhushan tiwari
+      - biswajit chatterjee
+      - bob christo
+      - bobby deol
+      - boloram das
+      - boman irani
+      - brijendrapal singh
+      - chaman puri
+      - chandra mohan
+      - chandrachur singh
+      - chandrashekhar dubey
+      - chandrashekhar vaidya
+      - charuhasan
+      - chetan hansraj
+      - chiranjeevi
+      - chunky pandey
+      - danie daniel
+      - dalip tahil
+      - dan dhanoa
+      - danny denzongpa
+      - dara singh
+      - darshan jariwala
+      - darshan kumar
+      - darsheel safary
+      - david abraham cheulkar
+      - daya shankar pandey
+      - dayanand shetty
+      - deb mukherjee
+      - deep dhillon
+      - deepak dobriyal
+      - deepak jethi
+      - deepak parashar
+      - deepak shirke
+      - deepak tijori
+      - dev anand
+      - deven bhojani
+      - deven verma
+      - dharmendra
+      - dharmesh yelande
+      - dheer charan srivastav
+      - dheeraj kumar
+      - dhritiman chatterjee
+      - dhumal
+      - dilip dhawan
+      - dilip joshi
+      - dilip kumar
+      - dilip prabhavalkar
+      - diljit dosanjh
+      - dinesh hingoo
+      - dinesh kaushik
+      - dinesh phadnis
+      - dino morea
+      - dinyar contractor
+      - divyendu sharma
+      - diwakar pundir
+      - dulquer salmaan
+      - emraan hashmi
+      - fahmaan khan
+      - faisal khan
+      - faraaz khan
+      - fardeen khan
+      - farhan akhtar
+      - farooq sheikh
+      - feroz khan
+      - firoz irani
+      - gajanan jagirdar
+      - gajendra chauhan
+      - gajraj rao
+      - ganesh acharya
+      - gavin packard
+      - ghanashyam nayak
+      - gippy grewal
+      - gireesh sahdev
+      - giriraj kabra
+      - girish karnad
+      - girish kumar
+      - goga kapoor
+      - gope
+      - gopi krishna
+      - govind namdev
+      - govinda
+      - gufi paintal
+      - gulshan grover
+      - gurmeet choudhary
+      - guru dutt
+      - hari shivdasani
+      - harindranath chattopadhyay
+      - harish kumar
+      - harish patel
+      - harshad chopda
+      - harman baweja
+      - harsh chhaya
+      - harshvardhan kapoor
+      - harshvardhan rane
+      - hemant birje
+      - hemant pandey
+      - himansh kohli
+      - himanshu malik
+      - himesh reshammiya
+      - hiten paintal
+      - hiten kumar
+      - honey singh
+      - hrithik roshan
+      - hrishikesh pandey
+      - i. s. johar
+      - iftekhar
+      - imran khan
+      - irrfan khan
+      - inaamulhaq
+      - inder kumar
+      - indraneil sengupta
+      - ishaan khatter
+      - jack gaud
+      - jackie shroff
+      - jackky bhagnani
+      - jagdeep
+      - jagdish raj
+      - jaideep ahlawat
+      - jamnadas majethia
+      - jankidas
+      - jas arora
+      - jassie gill
+      - jatin sarna
+      - javed jaffrey
+      - javed khan
+      - javed khan amrohi
+      - jay bhanushali
+      - jay mehta
+      - jayant kripalani
+      - jeetendra
+      - jeevan
+      - joginder
+      - jim sarbh
+      - jimmy shergill
+      - jisshu sengupta
+      - jitendra kumar
+      - john abraham
+      - johnny lever
+      - johnny walker
+      - joy mukherjee
+      - jugal hansraj
+      - kabir bedi
+      - kader khan
+      - kamaal r. khan
+      - kamal haasan
+      - kamal kapoor
+      - kanhaiyalal
+      - kanwaljit singh
+      - kapil sharma
+      - karan grover
+      - karan johar
+      - karan kapoor
+      - karan kundrra
+      - karan patel
+      - karan singh grover
+      - karan wahi
+      - karanvir bohra
+      - karmveer choudhary
+      - kartik aaryan
+      - kay kay menon
+      - keshto mukherjee
+      - kharaj mukherjee
+      - kiran kumar
+      - kishore kumar
+      - k. k. goswami
+      - k. k. raina
+      - k. l. saigal
+      - k. n. singh
+      - krishan dhawan
+      - krishna bharadwaj
+      - krishan kumar
+      - kuku kohli
+      - kulbhushan kharbanda
+      - kumar gaurav
+      - kumud mishra
+      - kunal goswami
+      - kunal kapoor
+      - kunal kapoor
+      - kunal khemu
+      - kushal punjabi
+      - lakha lakhwinder singh
+      - lalit tiwari
+      - laxmikant berde
+      - lilliput
+      - m. k. raina
+      - mac mohan
+      - madan jain
+      - madan puri
+      - madhukar toradmal
+      - mahavir shah
+      - mahendra sandhu
+      - mahesh anand
+      - mahesh manjrekar
+      - mahipal
+      - mamik singh
+      - mammootty
+      - manav gohil
+      - manav kaul
+      - manav vij
+      - mangal dhillon
+      - manik irani
+      - maninder singh
+      - manish chaudhari
+      - manish malhotra
+      - manish paul
+      - manjot singh
+      - manmohan
+      - manmohan krishna
+      - manohar singh
+      - manoj bajpayee
+      - manoj joshi
+      - manoj kumar
+      - manoj pahwa
+      - manoj tiger
+      - manoj tiwari
+      - moolchand
+      - marc zuber
+      - mazhar khan
+      - mehmood
+      - meiyang chang
+      - milind gawali
+      - milind gunaji
+      - milind soman
+      - mithun chakraborty
+      - mohammed zeeshan ayyub
+      - mohan agashe
+      - mohan choti
+      - mohan gokhale
+      - mohan joshi
+      - mohan kapur
+      - mohanlal
+      - mohan raman
+      - mohit ahlawat
+      - mohit chadda
+      - mohit marwah
+      - mohit raina
+      - mohnish bahl
+      - mohsin khan
+      - motilal
+      - mudasir zafar
+      - mukesh batra
+      - mukesh khanna
+      - mukesh rawal
+      - mukesh rishi
+      - mukesh tiwari
+      - mukri
+      - mukul chadda
+      - mukul dev
+      - mulraj rajda
+      - murad
+      - murali sharma
+      - naga chaitanya
+      - nagarjuna
+      - nana palshikar
+      - nana patekar
+      - narendra nath
+      - naresh kanodia
+      - naseeruddin shah
+      - nassar
+      - naved aslam
+      - naveen polishetty
+      - navin nischol
+      - nawazuddin siddiqui
+      - nazir hussain
+      - nazir kashmiri
+      - neeraj vora
+      - neil nitin mukesh
+      - nikesh ram
+      - nikkhil advani
+      - nilu phule
+      - nimai bali
+      - ninad kamat
+      - nirmal pandey
+      - nitish bharadwaj
+      - om katare
+      - om prakash
+      - om puri
+      - om shivpuri
+      - omi vaidya
+      - paidi jairaj
+      - paintal
+      - pankaj berry
+      - pankaj dheer
+      - pankaj kapoor
+      - pankaj tripathi
+      - parambrata chatterjee
+      - paresh ganatra
+      - paresh rawal
+      - parikshat sahni
+      - parmeet sethi
+      - pavan malhotra
+      - piyush mishra
+      - prabhas
+      - prabhu deva
+      - pradeep kumar
+      - pradeep rawat
+      - prakash raj
+      - pran
+      - prateik babbar
+      - pratik gandhi
+      - praveen kumar
+      - prem chopra
+      - prem kishen
+      - prem nath
+      - prithviraj kapoor
+      - prithviraj sukumaran
+      - priyanshu chatterjee
+      - priyanshu painyuli
+      - pramod chakravorty
+      - prosenjit chatterjee
+      - pulkit samrat
+      - puneet issar
+      - punit pathak
+      - r. madhavan
+      - raaj kumar
+      - raghubir yadav
+      - rahil azam
+      - rahul bose
+      - rahul dev
+      - rahul kumar
+      - rahul roy
+      - rahul singh
+      - raj arjun
+      - raj babbar
+      - raj kapoor
+      - raj kiran
+      - raj kishore
+      - raj mehra
+      - raj zutshi
+      - raja bundela
+      - rajan sippy
+      - rajat bedi
+      - rajat kapoor
+      - rajeev khandelwal
+      - rajeev mehta
+      - rajendra gupta
+      - rajendra kumar
+      - rajendra nath
+      - rajendranath zutshi
+      - rajesh khanna
+      - rajesh khattar
+      - rajesh khera
+      - rajesh puri
+      - rajesh sharma
+      - rajesh vivek
+      - rajinikanth
+      - rajit kapur
+      - rajkummar rao
+      - rajneesh duggal
+      - rajpal yadav
+      - raju kher
+      - raju srivastav
+      - rakesh bapat
+      - rakesh bedi
+      - rakesh roshan
+      - ramayan tiwari
+      - ram charan
+      - ram kapoor
+      - ramkumar bohra
+      - ramesh deo
+      - ramesh mehta
+      - rami reddy
+      - rana daggubati
+      - ranbir kapoor
+      - randeep hooda
+      - randhir
+      - randhir kapoor
+      - ranjan
+      - ranjeet
+      - ranveer singh
+      - ranvir shorey
+      - rashid khan
+      - rasik dave
+      - ravi kale
+      - ravi kishan
+      - raza murad
+      - razzak khan
+      - rehman
+      - rishabh shukla
+      - rishi kapoor
+      - riteish deshmukh
+      - rohan mehra
+      - rohit roy
+      - rohit saraf
+      - rohitash gaud
+      - romesh sharma
+      - ronit roy
+      - roopesh kumar
+      - saanand verma
+      - sabyasachi chakraborty
+      - sachin khedekar
+      - sachin pilgaonkar
+      - sachin shroff
+      - sadashiv amrapurkar
+      - saeed jaffrey
+      - sahil khan
+      - saif ali khan
+      - salim ghouse
+      - salim khan
+      - salman khan
+      - salman yusuff khan
+      - sameer dharmadhikari
+      - sanjay dutt
+      - sanjay kapoor
+      - sanjay khan
+      - sanjay mishra
+      - sanjay suri
+      - sanjeev kumar
+      - sanjeev tyagi
+      - sapru
+      - sarath babu
+      - sarfaraz khan
+      - satish kaul
+      - satish kaushik
+      - satish shah
+      - satyen kappu
+      - saurabh shukla
+      - sayaji shinde
+      - shaan
+      - shadaab khan
+      - shafi inamdar
+      - shah rukh khan
+      - shahbaz khan
+      - shahid kapoor
+      - shaheer sheikh
+      - shakti kapoor
+      - shammi kapoor
+      - shankar nag
+      - sharad kapoor
+      - sharad kelkar
+      - sharat saxena
+      - sharman joshi
+      - shashi kapoor
+      - shatrughan sinha
+      - shavinder mahal
+      - sheikh mukhtar
+      - shiney ahuja
+      - shishir sharma
+      - shiva rindani
+      - shivaji satam
+      - shreyas talpade
+      - shriram lagoo
+      - shrivallabh vyas
+      - shyam
+      - sid makkar
+      - siddhant chaturvedi
+      - siddharth
+      - siddharth ray
+      - sidhant gupta
+      - sidharth malhotra
+      - sidharth shukla
+      - sikandar kher
+      - snehlata
+      - sohail khan
+      - sonu sood
+      - sooraj pancholi
+      - subrat dutta
+      - sudeep
+      - sudesh berry
+      - sudipto balav
+      - sudhanshu pandey
+      - sudhir
+      - sudhir dalvi
+      - sudhir pandey
+      - sujit kumar
+      - sumeet vyas
+      - sumeet raghavan
+      - sunder
+      - suniel shetty
+      - sunil dutt
+      - sunil grover
+      - sunil lahri
+      - sunil pal
+      - sunny deol
+      - sunny kaushal
+      - supriyo dutta
+      - surendra
+      - surendra pal
+      - suresh
+      - suresh chatwal
+      - suresh oberoi
+      - suriya
+      - sushant singh
+      - sushant singh rajput
+      - swapnil joshi
+      - tahir raj bhasin
+      - tariq
+      - tarun bose
+      - tarun khanna
+      - tej sapru
+      - thakur anoop singh
+      - tiger shroff
+      - tiku talsania
+      - tinnu anand
+      - tom alter
+      - tota roy chowdhury
+      - trilok kapoor
+      - tushar dalvi
+      - tusshar kapoor
+      - uday chopra
+      - uday sabnis
+      - upen patel
+      - upendra limaye
+      - upendra trivedi
+      - utpal dutt
+      - uttam kumar
+      - v k sharma
+      - vaquar shaikh
+      - varun badola
+      - varun dhawan
+      - varun sharma
+      - vicky kaushal
+      - victor banerjee
+      - vidyut jammwal
+      - vijay
+      - vijay anand
+      - vijay arora
+      - vijay raaz
+      - vijay varma
+      - vijayendra ghatge
+      - viju khote
+      - vikas anand
+      - vikrant massey
+      - vinay anand
+      - vinay pathak
+      - vineet kumar
+      - vineet raina
+      - vinod kapoor
+      - vinod khanna
+      - vinod mehra
+      - virendra razdan
+      - virendra saxena
+      - vishal kotian
+      - vishwajeet pradhan
+      - vivan bhatena
+      - vivek mushran
+      - vivek oberoi
+      - waris ahluwalia
+      - yakub
+      - yash pandit
+      - yash tonk
+      - yashpal sharma
+      - yatin karyekar
+      - yunus parvez
+      - yusuf khan
+      - zakir hussain
+      - zayed khan
+      - zubeen garg
+      - zulfi syed
