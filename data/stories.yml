@@ -2,29 +2,126 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: movie plot path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - intent: movie_plot_ask
+  - action: utter_movie_plot_ask
+  - intent: movie_plot_detail
+  - action: action_search_movie_plot
+  - intent: movie_name
+  - action: action_search_similar_movie
+  - intent: movie_match_actor
+    entities:
+    - actor: shah rukh khan
+  - action: action_search_actor_movie
+  - intent: goodbye
   - action: utter_goodbye
+
+- story: movie similar path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: movie_similar_ask
+  - action: utter_movie_ask
+  - intent: movie_name
+  - action: action_search_similar_movie
+  - intent: goodbye
+  - action: utter_goodbye
+
+# - story: movie actor path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: movie_match_actor
+#   - action: utter_movie_actor
+#   - intent: goodbye
+#   - action: utter_goodbye
+
+- story: movie director path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: movie_match_director
+    entities:
+    - director: quentin tarantino
+  - action: utter_movie_director
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: movie genre path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: movie_match_genre
+    entities:
+    - genre: comedy
+  - action: utter_movie_genre
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: movie rating path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: movie_match_rating
+    entities:
+    - rating: top 5
+  - action: utter_movie_rating
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: movie criteria path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: movie_match_several_criteria
+  - action: utter_several_criteria
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: out_of_scope
+  steps:
+  - action: action_my_fallback
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: movie_plot_ask
+  - action: utter_movie_plot_ask
+  - intent: movie_plot_detail
+  - action: action_search_movie_plot
+  - intent: movie_similar_ask
+  - action: utter_movie_ask
+  - intent: movie_name
+    entities:
+    - movie: The Dark Knight
+  - action: action_search_similar_movie
+  - intent: movie_match_actor
+    entities:
+    - actor: tom cruise
+  - action: action_search_actor_movie
+  - intent: movie_match_actor
+    entities:
+    - actor: shah rukh khan
+  - action: action_search_actor_movie

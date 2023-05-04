@@ -1,34 +1,74 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
+- affirm
+- bot_challenge
+- deny
+- goodbye
+- greet
+- location_mapper
+- mood_great
+- mood_unhappy
+- movie_match_actor
+- movie_match_director
+- movie_match_genre
+- movie_match_rating
+- movie_match_several_criteria
+- movie_name
+- movie_plot_ask
+- movie_plot_detail
+- movie_similar_ask
+entities:
+- actor
+- movie
+- director
+- genre
+- rating
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
+  - text: Hey! I am isti bot , can suggest you movie on the basis of actor,genre,plot,director,movie. Tell me what basis you want movie ?
+  utter_movie_plot_ask:
+  - text: Please provide movie plot to search ?
+  utter_movie_ask:
+  - text: Please provide movie to search similar movie ?
+  utter_movie_actor:
+  - text: acotor
+  utter_movie_director:
+  - text: director
+  utter_movie_rating:
+  - text: Rating
+  utter_movie_genre:
+  - text: Genre
+  utter_several_criteria:
+  - text: criteria
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
   utter_did_that_help:
-  - text: "Did that help you?"
-
+  - text: Did that help you?
   utter_happy:
-  - text: "Great, carry on!"
-
+  - text: Great, carry on!
   utter_goodbye:
-  - text: "Bye"
-
+  - text: Bye
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+  - text: I am a bot, powered by Rasa.
+actions:
+- action_search_actor_movie
+- utter_movie_ask
+- action_search_movie_plot
+- action_search_similar_movie
+- utter_movie_plot_ask
+- utter_greet
+- action_hello
+- utter_happy
+- utter_iamabot
+- utter_goodbye
+- utter_did_that_help
+- utter_cheer_up
+- utter_movie_actor
+- utter_movie_rating
+- utter_movie_genre
+- utter_movie_director
+- utter_several_criteria
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

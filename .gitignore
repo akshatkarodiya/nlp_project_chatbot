@@ -1,2 +1,4 @@
-dataset/
+datasets/
+models/
+external_models/
 .rasa

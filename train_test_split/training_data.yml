@@ -1,0 +1,890 @@
+version: "3.1"
+nlu:
+- intent: location_mapper
+  examples: |
+    - I live in New York City
+    - I am from Madhya Pradesh
+- intent: movie_match_rating
+  examples: |
+    - what were the [top 5](rating) rated movies in 2018?
+    - what were the [top 10](rating) rated movies in 1990?
+- intent: bot_challenge
+  examples: |
+    - am I talking to a bot?
+    - are you a bot?
+    - am I talking to a human?
+- intent: movie_plot_detail
+  examples: |
+    - Jedi knight lightsaber starship
+    - Infiltrate in minds and extract information through a shared dream world. Different levels of dreams. Build a team to inplant idea for a very powerful Japanese industrialist
+    - Adaptation of the first of J.K. Rowling's popular children's novels about Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths.
+- intent: affirm
+  examples: |
+    - that sounds good
+    - of course
+    - yes
+    - indeed
+    - correct
+- intent: movie_match_genre
+  examples: |
+    - tell me [comedy](genre) movies
+    - give me [comedy](genre) movies
+    - suggest me [action](genre) movies
+    - give me [horror](genre) movies
+    - tell me [horror](genre) movies
+- intent: deny
+  examples: |
+    - not really
+    - I don't think so
+    - never
+    - n
+    - no
+    - don't like that
+- intent: movie_match_several_criteria
+  examples: |
+    - tell me [drama](genre) movies that had the participation of [brad pitt](actor)
+    - tell me [comedy](genre) movies that had the participation of [tom cruise](actor)
+    - tell me [action](genre) movies that were directed by [tony scott](director)
+    - suggest me movies that were directed by [steven spielberg](director) and had [tom cruise](actor) as an actor
+    - suggest me [horror](genre)  movies that were produced between 1990 and 2002
+    - give me movies that were directed by [tony scott](director) produced between 1990 and 2002
+- intent: movie_plot_ask
+  examples: |
+    - suggest me movie on the basis of plot
+    - search on the basis of plot.
+    - plot
+    - tell movie on the basis of plot
+    - movie plot
+- intent: movie_match_actor
+  examples: |
+    - what movies has [christian bale](actor) worked on?
+    - what movies had the participation of [brad pitt](actor)?
+    - what movies had the participation of [tom cruise](actor)?
+    - what movies had the participation of [leonardo dicaprio](actor)?
+    - what movies had the participation of [johnny depp](actor)?
+    - what movies has [shah rukh khan](actor) worked on?
+    - what movies has [robert de niro](actor) worked on?
+- intent: movie_name
+  examples: |
+    - [The Green Mile](movie)
+    - [The Lion King](movie)
+    - [The Godfather](movie)
+    - [The Dark Knight](movie)
+    - [Interstellar](movie)
+    - [Inception](movie)
+    - [Back to the Future ](movie)
+    - [Gisaengchung](movie)
+- intent: movie_match_director
+  examples: |
+    - what did [kabir khan](director) create?
+    - what is [quentin tarantino](director) known for?
+    - what are the movies by [peter jackson](director)?
+    - what are the movies by [joel silver](director)?
+    - what movies were directed by [quentin tarantino](director)?
+    - what are the movies by [stanley kubrick](director)?
+    - what movies were directed by [christopher nolan](director)?
+    - what movies were directed by [karan johar](director)?
+    - what movies were directed by [rajkumar hirani](director)?
+- intent: goodbye
+  examples: |
+    - goodbye
+    - good by
+    - c ya
+    - cee you later
+    - have a nice day
+    - see you later
+    - bye bye
+    - see you around
+    - ciao
+    - cu
+    - good night
+- intent: mood_great
+  examples: |
+    - feeling like a king
+    - I am feeling very good
+    - great
+    - so so perfect
+    - perfect
+    - I am amazing
+    - wonderful
+    - I am going to save the world
+    - super stoked
+    - amazing
+    - I am great
+- intent: mood_unhappy
+  examples: |
+    - so saad
+    - sad
+    - unhappy
+    - I'm so sad
+    - not good
+    - I don't feel very well
+    - extremly sad
+    - super sad
+    - so sad
+    - I am sad
+    - very sad
+- intent: greet
+  examples: |
+    - moin
+    - goodmorning
+    - hello
+    - sup
+    - hey
+    - good evening
+    - hi
+    - hey dude
+    - hey there
+    - whats up
+    - good morning
+    - goodevening
+- intent: movie_similar_ask
+  examples: |
+    - suggest me movie like [The Godfather](movie)
+    - do you know movie like  [Interstellar](movie)
+    - tell me movie like [The Shawshank Redemption](movie)
+    - suggest me movie like [The Green Mile](movie)
+    - show me movie like [Goodfellas](movie)
+    - tell me movie like [The Lion King](movie)
+    - look for movies like [The Matrix](movie)
+    - look for movies like [The Godfather: Part II](movie)
+    - tell me movie like [Back to the Future ](movie)
+    - show me movie like [The Dark Knight](movie)
+    - suggest me movie like [Joker](movie)
+    - similar movie
+- synonym: movies
+  examples: |
+    - film
+    - picture
+    - cinema
+- lookup: actor
+  examples: |
+    - aamir khan
+    - abhay deol
+    - abhishek bachchan
+    - adil hussain
+    - aishwarya rai bachchan
+    - ajay devgn
+    - akshay kumar
+    - akshaye khanna
+    - alia bhatt
+    - amit sadh
+    - amitabh bachchan
+    - amrish puri
+    - ananya panday
+    - anil kapoor
+    - annu kapoor
+    - anupam kher
+    - anushka sharma
+    - aparshakti khurana
+    - arshad warsi
+    - ashutosh rana
+    - ayushmann khurrana
+    - bhumi pednekar
+    - boman irani
+    - danny denzongpa
+    - deepak dobriyal
+    - deepika padukone
+    - dharmendra
+    - disha patani
+    - emraan hashmi
+    - farhan akhtar
+    - govinda
+    - hrithik roshan
+    - irrfan khan
+    - jackie shroff
+    - jim sarbh
+    - jimmy shergill
+    - john abraham
+    - kajol
+    - kangana ranaut
+    - kareena kapoor
+    - katrina kaif
+    - kay kay menon
+    - kriti sanon
+    - kumud mishra
+    - kunal kapoor
+    - madhavan
+    - manoj bajpayee
+    - mithun chakraborty
+    - mo
+    - nana patekar
+    - naseeruddin shah
+    - nawazuddin siddiqui
+    - neil nitin mukesh
+    - om puri
+    - pankaj tripathi
+    - paresh rawal
+    - priyanka chopra jonas
+    - rajat kapoor
+    - rajkummar rao
+    - ranbir kapoor
+    - randeep hooda
+    - ranveer singh
+    - ranvir shorey
+    - rishi kapoor
+    - ronit roy
+    - saif ali khan
+    - salman khan
+    - sanjay dutt
+    - sanjay mishra
+    - sara ali khan
+    - saurabh shukla
+    - shah rukh khan
+    - shahid kapoor
+    - sharman joshi
+    - shraddha kapoor
+    - shreyas talpade
+    - sonam kapoor
+    - suniel shetty
+    - sunny deol
+    - sushant singh rajput
+    - varun dhawan
+    - varun sharma
+    - vicky kaushal
+    - vidya balan
+    - vijay raaz
+    - vinay pathak
+    - vineet kumar singh
+    - zeeshan ayyub
+    - brad pitt
+    - tom hanks
+    - leonardo dicaprio
+    - robert de niro
+    - bruce willis
+    - samuel l. jackson
+    - christian bale
+    - robert downey jr.
+    - morgan freeman
+    - matt damon
+    - johnny depp
+    - ian mckellen
+    - tom cruise
+    - harrison ford
+    - liam neeson
+    - orlando bloom
+    - hugh jackman
+    - scarlett johansson
+    - natalie portman
+    - michael caine
+    - chris evans
+    - al pacino
+    - will smith
+    - mark wahlberg
+    - mark ruffalo
+    - keanu reeves
+    - kevin spacey
+    - bradley cooper
+    - edward norton
+    - russell crowe
+    - jim carrey
+    - ben affleck
+    - ewan mcgregor
+    - nicolas cage
+    - anne hathaway
+    - george clooney
+    - gary oldman
+    - jake gyllenhaal
+    - matthew mcconaughey
+    - elijah wood
+    - tom hardy
+    - jason statham
+    - arnold schwarzenegger
+    - denzel washington
+    - woody harrelson
+    - jack nicholson
+    - chris hemsworth
+    - willem dafoe
+    - jennifer lawrence
+    - anthony hopkins
+    - cate blanchett
+    - cameron diaz
+    - julianne moore
+    - john goodman
+    - rachel mcadams
+    - ryan reynolds
+    - sigourney weaver
+    - joseph gordon-levitt
+    - hugo weaving
+    - emma watson
+    - sylvester stallone
+    - ed harris
+    - daniel radcliffe
+    - ben kingsley
+    - steve carell
+    - vin diesel
+    - charlize theron
+    - keira knightley
+    - kate winslet
+    - amy adams
+    - viggo mortensen
+    - ryan gosling
+    - john travolta
+    - ben stiller
+    - jude law
+    - ralph fiennes
+    - mel gibson
+    - adam sandler
+    - angelina jolie
+    - uma thurman
+    - sandra bullock
+    - robin williams
+    - jonah hill
+    - jeremy renner
+    - ken watanabe
+    - clint eastwood
+    - dwayne johnson
+    - carrie-anne moss
+    - joaquin phoenix
+    - rupert grint
+    - gerard butler
+    - jeff bridges
+    - josh brolin
+    - tim robbins
+    - emma stone
+    - diane keaton
+    - jennifer connelly
+    - james franco
+    - owen wilson
+    - ethan hawke
+    - paul rudd
+    - julia roberts
+    - james mcavoy
+    - carrie fisher
+    - gwyneth paltrow
+    - geoffrey rush
+    - laurence fishburne
+    - aaron eckhart
+    - guy pearce
+    - mark hamill
+    - michael fassbender
+    - jodie foster
+    - zoe saldana
+    - jamie foxx
+    - daniel craig
+    - christopher plummer
+    - bill murray
+    - robin wright
+    - colin farrell
+    - tommy lee jones
+    - heath ledger
+    - will ferrell
+    - kirsten dunst
+    - dustin hoffman
+    - chris pratt
+    - seth rogen
+    - shia labeouf
+    - eddie murphy
+    - nicole kidman
+    - simon pegg
+    - jesse eisenberg
+    - sean connery
+    - jack black
+    - vince vaughn
+    - jason bateman
+    - philip seymour hoffman
+    - emily blunt
+    - steve buscemi
+    - christopher walken
+    - patrick stewart
+    - jessica chastain
+    - sean bean
+    - don cheadle
+    - robert duvall
+    - clive owen
+    - rachel weisz
+    - chiwetel ejiofor
+    - michelle rodriguez
+    - kurt russell
+    - michael keaton
+- lookup: director
+  examples: |
+    - aanand
+    - abbas alibhai burmawalla
+    - abhinay deo
+    - abhishek chaubey
+    - abhishek kapoor
+    - aditya chopra
+    - ali abbas zafar
+    - amar kaushik
+    - anees bazmee
+    - anubhav sinha
+    - anurag basu
+    - anurag kashyap
+    - ashutosh gowariker
+    - ashwiny iyer tiwari
+    - ayan mukerji
+    - balki
+    - barjatya
+    - bejoy nambiar
+    - david dhawan
+    - dibakar banerjee
+    - farhan akhtar
+    - gauri shinde
+    - hansal mehta
+    - homi adajania
+    - imtiaz ali
+    - indra kumar
+    - kabir khan
+    - karan johar
+    - madhur bhandarkar
+    - maneesh sharma
+    - mastan alibhai burmawalla
+    - meghna gulzar
+    - milan luthria
+    - mohit suri
+    - nagesh kukunoor
+    - navdeep singh
+    - neeraj pandey
+    - nikkhil advani
+    - nishikant kamat
+    - nitesh tiwari
+    - prakash jha
+    - priyadarshan
+    - rai
+    - raj kumar gupta
+    - rajkumar hirani
+    - rajkumar santoshi
+    - rakesh roshan
+    - rakeysh omprakash mehra
+    - reema kagti
+    - ritesh batra
+    - rohit shetty
+    - sanjay leela bhansali
+    - shakun batra
+    - sharat katariya
+    - shimit amin
+    - shoojit sircar
+    - sooraj
+    - sriram raghavan
+    - subhash kapoor
+    - sujoy ghosh
+    - umesh shukla
+    - vikas bahl
+    - vikramaditya motwane
+    - vipul amrutlal shah
+    - vishal bhardwaj
+    - yash chopra
+    - zoya akhtar
+    - steven spielberg
+    - christopher nolan
+    - quentin tarantino
+    - scott rudin
+    - charles roven
+    - peter jackson
+    - ridley scott
+    - martin scorsese
+    - joel silver
+    - tim bevan
+    - lawrence bender
+    - david fincher
+    - david heyman
+    - emma thomas
+    - brian grazer
+    - eric fellner
+    - robert zemeckis
+    - arnon milchan
+    - neal h. moritz
+    - michael bay
+    - tim burton
+    - rick mccallum
+    - barrie m. osborne
+    - jason blum
+    - james cameron
+    - ian bryce
+    - frank marshall
+    - walter f. parkes
+    - francis ford coppola
+    - ethan coen
+    - chris columbus
+    - ron howard
+    - joel coen
+    - bryan singer
+    - lauren shuler donner
+    - steve golin
+    - mark gordon
+    - stanley kubrick
+    - lorenzo di bonaventura
+    - judd apatow
+    - matthew vaughn
+    - steve starkey
+    - jon kilik
+    - art linson
+    - frank darabont
+    - sam raimi
+    - zack snyder
+    - stacey sher
+    - gore verbinski
+    - peter chernin
+    - george lucas
+    - lana wachowski
+    - simon kinberg
+    - guy ritchie
+    - lilly wachowski
+    - alfred hitchcock
+    - patrick crowley
+    - danny boyle
+    - m. night shyamalan
+    - robert rodriguez
+    - steven soderbergh
+    - steve tisch
+    - andrew macdonald
+    - todd phillips
+    - mark johnson
+    - bruce davey
+    - mike medavoy
+    - jack giarraputo
+    - david yates
+    - tom rosenberg
+    - denise di novi
+    - anthony russo
+    - joe russo
+    - james wan
+    - michael mann
+    - sam mendes
+    - john lasseter
+    - shawn levy
+    - alfonso cuarón
+    - larry franco
+    - daniel goldberg
+    - darren aronofsky
+    - andrew stanton
+    - carolynne cunningham
+    - roland emmerich
+    - irwin winkler
+    - bruce cohen
+    - luc besson
+    - guillermo del toro
+    - todd black
+    - branko lustig
+    - francis lawrence
+    - jon favreau
+    - tony scott
+    - scott stuber
+    - barbara broccoli
+    - brett ratner
+    - jon landau
+    - gary kurtz
+    - brad bird
+    - joss whedon
+    - paula wagner
+    - james mangold
+    - pete docter
+    - brian de palma
+    - niki marvin
+    - adam mckay
+    - wes anderson
+    - denis villeneuve
+    - doug liman
+    - elizabeth avellan
+    - chris bender
+    - edgar wright
+    - antoine fuqua
+    - edward zwick
+    - hayao miyazaki
+    - john mctiernan
+    - jay roach
+    - robert lorenz
+    - ivan reitman
+    - michael shamberg
+    - alejandro g. iñárritu
+    - oliver stone
+    - clint eastwood
+    - shauna robertson
+    - christian colson
+    - barry sonnenfeld
+    - anthony bregman
+    - louis leterrier
+    - joel schumacher
+    - jonathan demme
+    - peter berg
+    - paul greengrass
+    - richard donner
+    - stuart cornfeld
+    - roman polanski
+    - peter farrelly
+    - rob reiner
+    - peter weir
+    - jeremy bolt
+    - david o. russell
+    - dan jinks
+    - mary parent
+    - joe johnston
+    - ross grayson bell
+    - tom desanto
+    - marc forster
+    - edward saxon
+    - woody allen
+    - richard linklater
+- lookup: genre
+  examples: |
+    - biography
+    - talk-show
+    - adult
+    - film-noir
+    - action
+    - crime
+    - musical
+    - sport
+    - music
+    - game-show
+    - reality-tv
+    - thriller
+    - news
+    - horror
+    - fantasy
+    - romance
+    - short
+    - war
+    - drama
+    - sci-fi
+    - comedy
+    - western
+    - animation
+    - adventure
+    - mystery
+    - history
+    - family
+    - documentary
+- lookup: movies
+  examples: |
+    - _The Lord of the Rings: The Return of the King
+    - Pulp Fiction
+    - Schindler's List
+    - Inception
+    - Fight Club
+    - The Lord of the Rings: The Fellowship of the Ring
+    - Forrest Gump
+    - Il buono, il brutto, il cattivo
+    - The Lord of the Rings: The Two Towers
+    - The Matrix
+    - Goodfellas
+    - Star Wars: Episode V - The Empire Strikes Back
+    - One Flew Over the Cuckoo's Nest
+    - Hamilton
+    - Gisaengchung
+    - Soorarai Pottru
+    - Interstellar
+    - Cidade de Deus
+    - Sen to Chihiro no kamikakushi
+    - Saving Private Ryan
+    - The Green Mile
+    - La vita è bella
+    - Se7en
+    - The Silence of the Lambs
+    - Star Wars
+    - Seppuku
+    - Shichinin no samurai
+    - It's a Wonderful Life
+    - Joker
+    - Whiplash
+    - The Intouchables
+    - The Prestige
+    - The Departed
+    - The Pianist
+    - Gladiator
+    - American History X
+    - The Usual Suspects
+    - Léon
+    - The Lion King
+    - Terminator 2: Judgment Day
+    - Nuovo Cinema Paradiso
+    - Hotaru no haka
+    - Back to the Future
+    - Once Upon a Time in the West
+    - Psycho
+    - Casablanca
+    - Modern Times
+    - City Lights
+    - Capharnaüm
+    - Ayla: The Daughter of War
+    - Vikram Vedha
+    - Kimi no na wa.
+    - Dangal
+    - Spider-Man: Into the Spider-Verse
+    - Avengers: Endgame
+    - Avengers: Infinity War
+    - Coco
+    - Django Unchained
+    - The Dark Knight Rises
+    - 3 Idiots
+    - Taare Zameen Par
+    - WALL·E
+    - The Lives of Others
+    - Oldeuboi
+    - Memento
+    - Mononoke-hime
+    - Once Upon a Time in America
+    - Raiders of the Lost Ark
+    - The Shining
+    - Apocalypse Now
+    - Alien
+    - Anand
+    - Tengoku to jigoku
+    - Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb
+    - Witness for the Prosecution
+    - Paths of Glory
+    - Rear Window
+    - Sunset Blvd.
+    - The Great Dictator
+    - 1917
+    - Tumbbad
+    - Andhadhun
+    - Drishyam
+    - Jagten
+    - Jodaeiye Nader az Simin
+    - Incendies
+    - Miracle in cell NO.7
+    - Babam ve Oglum
+    - Inglourious Basterds
+    - Eternal Sunshine of the Spotless Mind
+    - Amélie
+    - Snatch
+    - Requiem for a Dream
+    - American Beauty
+    - Good Will Hunting
+    - Bacheha-Ye aseman
+    - Toy Story
+    - Braveheart
+    - Reservoir Dogs
+    - Full Metal Jacket
+    - Idi i smotri
+    - Aliens
+    - Amadeus
+    - Scarface
+    - Star Wars: Episode VI - Return of the Jedi
+    - Das Boot
+    - Taxi Driver
+    - The Sting
+    - A Clockwork Orange
+    - 2001: A Space Odyssey
+    - Per qualche dollaro in più
+    - Lawrence of Arabia
+    - The Apartment
+    - The Avengers
+    - North by Northwest
+    - Vertigo
+    - Singin' in the Rain
+    - Ikiru
+    - Ladri di biciclette
+    - Double Indemnity
+    - Citizen Kane
+    - M - Eine Stadt sucht einen Mörder
+    - Metropolis
+    - The Kid
+    - Chhichhore
+    - Uri: The Surgical Strike
+    - K.G.F: Chapter 1
+    - Green Book
+    - Three Billboards Outside Ebbing, Missouri
+    - Talvar
+    - Baahubali 2: The Conclusion
+    - Klaus
+    - Drishyam
+    - Queen
+    - Mandariinid
+    - Bhaag Milkha Bhaag
+    - Gangs of Wasseypur
+    - Udaan
+    - Paan Singh Tomar
+    - El secreto de sus ojos
+    - Warrior
+    - Shutter Island
+    - Up
+    - The Wolf of Wall Street
+    - Chak De! India
+    - There Will Be Blood
+    - Pan's Labyrinth
+    - Toy Story 3
+    - V for Vendetta
+    - Rang De Basanti
+    - Black
+    - Batman Begins
+    - Swades: We, the People
+    - Der Untergang
+    - Hauru no ugoku shiro
+    - A Beautiful Mind
+    - Hera Pheri
+    - Lock, Stock and Two Smoking Barrels
+    - L.A. Confidential
+    - Eskiya
+    - Heat
+    - Casino
+    - Andaz Apna Apna
+    - Unforgiven
+    - Indiana Jones and the Last Crusade
+    - Dom za vesanje
+    - Tonari no Totoro
+    - Die Hard
+    - Ran
+    - Raging Bull
+    - Stalker
+    - Höstsonaten
+    - The Message
+    - Sholay
+    - Monty Python and the Holy Grail
+    - The Great Escape
+    - To Kill a Mockingbird
+    - Yôjinbô
+    - Judgment at Nuremberg
+    - Some Like It Hot
+    - Smultronstället
+    - Det sjunde inseglet
+    - Du rififi chez les hommes
+    - Dial M for Murder
+    - Tôkyô monogatari
+    - Rashômon
+    - All About Eve
+    - The Treasure of the Sierra Madre
+    - To Be or Not to Be
+    - The Gold Rush
+    - Sherlock Jr.
+    - Portrait de la jeune fille en feu
+    - Pink
+    - Koe no katachi
+    - Contratiempo
+    - Ah-ga-ssi
+    - Mommy
+    - Haider
+    - Logan
+    - Room
+    - Relatos salvajes
+    - Soul
+    - Kis Uykusu
+    - PK
+    - OMG: Oh My God!
+    - The Grand Budapest Hotel
+    - Gone Girl
+    - Ôkami kodomo no Ame to Yuki
+    - Hacksaw Ridge
+    - Inside Out
+    - Barfi!
+    - 12 Years a Slave
+    - Rush
+    - Ford v Ferrari
+    - Spotlight
+    - Song of the Sea
+    - Kahaani
+    - Zindagi Na Milegi Dobara
+    - Prisoners
+    - Mad Max: Fury Road
+    - A Wednesday
+    - Gran Torino
+    - Harry Potter and the Deathly Hallows: Part 2
+    - Okuribito
+    - Hachi: A Dog's Tale
+    - Mary and Max
+    - How to Train Your Dragon
+    - Into the Wild
+    - No Country for Old Men
+    - Lage Raho Munna Bhai
+    - Million Dollar Baby
+    - Hotel Rwanda
+    - Taegukgi hwinalrimyeo
+    - Before Sunset
+    - Munna Bhai M.B.B.S.
+    - Salinui chueok
+    - Dil Chahta Hai
+    - Kill Bill: Vol. 1
+    - Finding Nemo
+    - Catch Me If You Can

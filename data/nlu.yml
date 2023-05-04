@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -18,7 +17,6 @@ nlu:
     - good afternoon
     - whats up
     - sup
-
 - intent: goodbye
   examples: |
     - cu
@@ -34,8 +32,6 @@ nlu:
     - c ya
     - ciao
     - talk to you later
-
-
 - intent: affirm
   examples: |
     - yes
@@ -44,7 +40,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -54,7 +49,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -71,7 +65,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -88,22 +81,19 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: location_mapper
   examples: |
     - I live in New York City
     - I live in Tamil Nadu
-    - I am from Madhya Pradesh 
-
+    - I am from Madhya Pradesh
 - intent: movie_match_director
-  examples: | 
+  examples: |
     - what movies were directed by [quentin tarantino](director)?
     - what movies were directed by [rajkumar hirani](director)?
     - what movies were directed by [christopher nolan](director)?
@@ -115,7 +105,6 @@ nlu:
     - what are the movies by [joel silver](director)?
     - what is [quentin tarantino](director) known for?
     - what did [kabir khan](director) create?
-
 - intent: movie_match_actor
   examples: |
     - what movies had the participation of [tom cruise](actor)?
@@ -127,8 +116,8 @@ nlu:
     - what movies has [christian bale](actor) worked on?
     - what movies has [robert de niro](actor) worked on?
     - what movies has [shah rukh khan](actor) worked on?
-
-
+    - What movie had the participation of [tom cruise](actor)?
+    - What movie had the participation of [shah rukh khan](actor) ?
 - intent: movie_match_genre
   examples: |
     - tell me [comedy](genre) movies
@@ -137,7 +126,6 @@ nlu:
     - give me [comedy](genre) movies
     - show me [action](genre) movies
     - give me [horror](genre) movies
-
 - intent: movie_match_several_criteria
   examples: |
     - tell me [comedy](genre) movies that had the participation of [tom cruise](actor)
@@ -147,13 +135,57 @@ nlu:
     - tell me [action](genre) movies that were directed by [tony scott](director)
     - suggest me movies that were directed by [steven spielberg](director) and had [tom cruise](actor) as an actor
     - give me movies that were directed by [tony scott](director) produced between 1990 and 2002
-
 - intent: movie_match_rating
   examples: |
     - what were the [top 5](rating) rated movies in 2018?
     - what were the [top 2](rating) rated movies in 2019?
     - what were the [top 10](rating) rated movies in 1990?
-
+- intent: movie_similar_ask
+  examples: |
+    - tell me movie like [The Shawshank Redemption](movie)
+    - tell me movie like [The Lion King](movie)
+    - tell me movie like [Back to the Future ](movie)
+    - suggest me movie like [The Godfather](movie)
+    - suggest me movie like [Joker](movie)
+    - suggest me movie like [The Green Mile](movie)
+    - show me movie like [The Dark Knight](movie)
+    - show me movie like [Goodfellas](movie)
+    - show me movie like [Gisaengchung](movie)
+    - look for movies like [The Godfather: Part II](movie)
+    - look for movies like [Inception](movie)
+    - look for movies like [The Matrix](movie)
+    - do you know movie like  [12 Angry Men](movie)
+    - do you know movie like  [Interstellar](movie)
+    - similar movie
+    - movie
+- intent: movie_name
+  examples: |
+    - [12 Angry Men](movie)
+    - [Interstellar](movie)
+    - [Inception](movie)
+    - [The Dark Knight](movie)
+    - [Gisaengchung](movie)
+    - [The Green Mile](movie)
+    - [Joker](movie)
+    - [The Godfather](movie)
+    - [Back to the Future ](movie)
+    - [The Lion King](movie)
+    - [The Dark Knight](movie)
+- intent: movie_plot_ask
+  examples: |
+    - suggest me movie on the basis of plot
+    - plot
+    - movie plot
+    - search on the basis of plot.
+    - search movie on the basis of plot
+    - tell movie on the basis of plot
+    - i want to look via movie plot
+- intent: movie_plot_detail
+  examples: |
+    - A blonde bride goes to Japan in search of her former boss and kills many people. She is dress in yellow and uses a katana. bike
+    - Jedi knight lightsaber starship
+    - Infiltrate in minds and extract information through a shared dream world. Different levels of dreams. Build a team to inplant idea for a very powerful Japanese industrialist
+    - Adaptation of the first of J.K. Rowling's popular children's novels about Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths.
 - synonym: movies
   examples: |
     - film

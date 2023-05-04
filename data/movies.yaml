@@ -1,0 +1,244 @@
+version: "2.0"
+nlu:
+  - lookup: movies
+    examples: |
+      - _The Lord of the Rings: The Return of the King
+      - Pulp Fiction
+      - Schindler's List
+      - Inception
+      - Fight Club
+      - The Lord of the Rings: The Fellowship of the Ring
+      - Forrest Gump
+      - Il buono, il brutto, il cattivo
+      - The Lord of the Rings: The Two Towers
+      - The Matrix
+      - Goodfellas
+      - Star Wars: Episode V - The Empire Strikes Back
+      - One Flew Over the Cuckoo's Nest
+      - Hamilton
+      - Gisaengchung
+      - Soorarai Pottru
+      - Interstellar
+      - Cidade de Deus
+      - Sen to Chihiro no kamikakushi
+      - Saving Private Ryan
+      - The Green Mile
+      - La vita è bella
+      - Se7en
+      - The Silence of the Lambs
+      - Star Wars
+      - Seppuku
+      - Shichinin no samurai
+      - It's a Wonderful Life
+      - Joker
+      - Whiplash
+      - The Intouchables
+      - The Prestige
+      - The Departed
+      - The Pianist
+      - Gladiator
+      - American History X
+      - The Usual Suspects
+      - Léon
+      - The Lion King
+      - Terminator 2: Judgment Day
+      - Nuovo Cinema Paradiso
+      - Hotaru no haka
+      - Back to the Future
+      - Once Upon a Time in the West
+      - Psycho
+      - Casablanca
+      - Modern Times
+      - City Lights
+      - Capharnaüm
+      - Ayla: The Daughter of War
+      - Vikram Vedha
+      - Kimi no na wa.
+      - Dangal
+      - Spider-Man: Into the Spider-Verse
+      - Avengers: Endgame
+      - Avengers: Infinity War
+      - Coco
+      - Django Unchained
+      - The Dark Knight Rises
+      - 3 Idiots
+      - Taare Zameen Par
+      - WALL·E
+      - The Lives of Others
+      - Oldeuboi
+      - Memento
+      - Mononoke-hime
+      - Once Upon a Time in America
+      - Raiders of the Lost Ark
+      - The Shining
+      - Apocalypse Now
+      - Alien
+      - Anand
+      - Tengoku to jigoku
+      - Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb
+      - Witness for the Prosecution
+      - Paths of Glory
+      - Rear Window
+      - Sunset Blvd.
+      - The Great Dictator
+      - 1917
+      - Tumbbad
+      - Andhadhun
+      - Drishyam
+      - Jagten
+      - Jodaeiye Nader az Simin
+      - Incendies
+      - Miracle in cell NO.7
+      - Babam ve Oglum
+      - Inglourious Basterds
+      - Eternal Sunshine of the Spotless Mind
+      - Amélie
+      - Snatch
+      - Requiem for a Dream
+      - American Beauty
+      - Good Will Hunting
+      - Bacheha-Ye aseman
+      - Toy Story
+      - Braveheart
+      - Reservoir Dogs
+      - Full Metal Jacket
+      - Idi i smotri
+      - Aliens
+      - Amadeus
+      - Scarface
+      - Star Wars: Episode VI - Return of the Jedi
+      - Das Boot
+      - Taxi Driver
+      - The Sting
+      - A Clockwork Orange
+      - 2001: A Space Odyssey
+      - Per qualche dollaro in più
+      - Lawrence of Arabia
+      - The Apartment
+      - The Avengers
+      - North by Northwest
+      - Vertigo
+      - Singin' in the Rain
+      - Ikiru
+      - Ladri di biciclette
+      - Double Indemnity
+      - Citizen Kane
+      - M - Eine Stadt sucht einen Mörder
+      - Metropolis
+      - The Kid
+      - Chhichhore
+      - Uri: The Surgical Strike
+      - K.G.F: Chapter 1
+      - Green Book
+      - Three Billboards Outside Ebbing, Missouri
+      - Talvar
+      - Baahubali 2: The Conclusion
+      - Klaus
+      - Drishyam
+      - Queen
+      - Mandariinid
+      - Bhaag Milkha Bhaag
+      - Gangs of Wasseypur
+      - Udaan
+      - Paan Singh Tomar
+      - El secreto de sus ojos
+      - Warrior
+      - Shutter Island
+      - Up
+      - The Wolf of Wall Street
+      - Chak De! India
+      - There Will Be Blood
+      - Pan's Labyrinth
+      - Toy Story 3
+      - V for Vendetta
+      - Rang De Basanti
+      - Black
+      - Batman Begins
+      - Swades: We, the People
+      - Der Untergang
+      - Hauru no ugoku shiro
+      - A Beautiful Mind
+      - Hera Pheri
+      - Lock, Stock and Two Smoking Barrels
+      - L.A. Confidential
+      - Eskiya
+      - Heat
+      - Casino
+      - Andaz Apna Apna
+      - Unforgiven
+      - Indiana Jones and the Last Crusade
+      - Dom za vesanje
+      - Tonari no Totoro
+      - Die Hard
+      - Ran
+      - Raging Bull
+      - Stalker
+      - Höstsonaten
+      - The Message
+      - Sholay
+      - Monty Python and the Holy Grail
+      - The Great Escape
+      - To Kill a Mockingbird
+      - Yôjinbô
+      - Judgment at Nuremberg
+      - Some Like It Hot
+      - Smultronstället
+      - Det sjunde inseglet
+      - Du rififi chez les hommes
+      - Dial M for Murder
+      - Tôkyô monogatari
+      - Rashômon
+      - All About Eve
+      - The Treasure of the Sierra Madre
+      - To Be or Not to Be
+      - The Gold Rush
+      - Sherlock Jr.
+      - Portrait de la jeune fille en feu
+      - Pink
+      - Koe no katachi
+      - Contratiempo
+      - Ah-ga-ssi
+      - Mommy
+      - Haider
+      - Logan
+      - Room
+      - Relatos salvajes
+      - Soul
+      - Kis Uykusu
+      - PK
+      - OMG: Oh My God!
+      - The Grand Budapest Hotel
+      - Gone Girl
+      - Ôkami kodomo no Ame to Yuki
+      - Hacksaw Ridge
+      - Inside Out
+      - Barfi!
+      - 12 Years a Slave
+      - Rush
+      - Ford v Ferrari
+      - Spotlight
+      - Song of the Sea
+      - Kahaani
+      - Zindagi Na Milegi Dobara
+      - Prisoners
+      - Mad Max: Fury Road
+      - A Wednesday
+      - Gran Torino
+      - Harry Potter and the Deathly Hallows: Part 2
+      - Okuribito
+      - Hachi: A Dog's Tale
+      - Mary and Max
+      - How to Train Your Dragon
+      - Into the Wild
+      - No Country for Old Men
+      - Lage Raho Munna Bhai
+      - Million Dollar Baby
+      - Hotel Rwanda
+      - Taegukgi hwinalrimyeo
+      - Before Sunset
+      - Munna Bhai M.B.B.S.
+      - Salinui chueok
+      - Dil Chahta Hai
+      - Kill Bill: Vol. 1
+      - Finding Nemo
+      - Catch Me If You Can
