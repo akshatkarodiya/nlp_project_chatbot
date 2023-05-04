@@ -44,4 +44,5 @@ pipeline:
  - name: DIETClassifier
    epochs: 200
    random_seed: 2
-
+Kaggle Notebook :- https://www.kaggle.com/code/akshat1608/movie-prediction-plot
+https://www.kaggle.com/code/akshat1608/movie-prediction-with-name
