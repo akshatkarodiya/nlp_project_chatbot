@@ -4,7 +4,7 @@
 ### First train the external model using ipynp files.
 ### Once that has been completed put model in external_models file.
 
-## Run followinf command :- 
+## Run following command :- 
 
 rasa train  (to train the model)
 rasa run actions  (to active the rasa action servcer for custom actions)
